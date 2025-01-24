@@ -23,7 +23,7 @@
             class="h-52 md:h-64 flex items-center justify-center bg-[#181818] relative"
           >
             <img
-              :src="project.image"
+              v-lazy="project.image"
               alt="Project Image"
               class="max-h-full max-w-full object-contain"
             />
@@ -76,12 +76,14 @@
   
   <script setup>
 import { ref } from "vue";
-
+import ipImage from "@/assets/ip.jpeg";
+import siemensLogo from "@/assets/siemens_LOGO.jpeg";
+import shapeImage from "@/assets/shape.jpeg";
 const Projects = ref([
   {
     id: 1,
     category: "IP Samman certificate",
-    image: "src/assets/ip.jpeg",
+    image: ipImage ,
     title: "Award",
     description:
       "Received IP Samman certificate under the category Rising Inventor from Siemens Technology and Service PVT LTD.",
@@ -91,7 +93,7 @@ const Projects = ref([
   {
     id: 2,
     category: "Got an idea archived for Siemens",
-    image: "src/assets/siemens_LOGO.jpeg",
+    image: siemensLogo,
     title: "Idea Archival",
     description: "Archived an idea for Siemens Technology and Service PVT LTD.",
     webURL:
@@ -100,7 +102,7 @@ const Projects = ref([
   {
     id: 3,
     category: "Contribution for Shape AI Community",
-    image: "src/assets/shape.jpeg",
+    image: shapeImage,
     title: "Contribution for Shape AI Community",
     description:
       "Made contributions to the Shape AI community by creating a project on the topic of Web Development.",

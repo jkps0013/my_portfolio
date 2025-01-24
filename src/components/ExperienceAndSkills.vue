@@ -30,7 +30,7 @@
                     class="flex  items-center rounded-xl p-4 bg-[#111a3e] shadow-lg border border-[#1f1641]"
                     >
                     <div class="w-1/4">
-                        <img :src="element.img" alt="engineer"
+                        <img v-lazy="element.img" alt="engineer"
                         class="h-16 w-16 object-contain">
                     </div>
                     <div class="w-3/4 pl-4">
@@ -47,6 +47,7 @@
     </section>
 </template>
 <script setup>
+import siemensLogo from "@/assets/siemens_LOGO.jpeg";
 import { ref } from 'vue';
 const Skills =ref([
     {
@@ -107,7 +108,7 @@ const Experinces =ref([
         role:'Software Developer',
         company:'Siemens Technology and services pvt Limited',
         date:'July 2023 - Present',
-        img: 'src/assets/siemens_LOGO.jpeg',
+        img: siemensLogo,
         url:'https://www.siemens.com/global/en.html'
     },
     {
@@ -115,7 +116,7 @@ const Experinces =ref([
         role:'Intern Technical',
         company:'Siemens Technology and services pvt Limited',
         date:'May 2022 - July 2022',
-        img: 'src/assets/siemens_LOGO.jpeg',
+        img: siemensLogo,
          url:'https://www.siemens.com/global/en.html'
     },
 ])
