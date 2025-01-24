@@ -20,11 +20,8 @@
             class="flex items-center md:w-[80%] w-full rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641]"
           >
             <div class="w-1/4 flex justify-center items-center">
-              <img
-                v-bind:src="element.img"
-                alt="graduation-cap--v1"
-                class="object-contain"
-              />
+            <img v-lazy="element.img" alt="Image" width="250" />
+             
             </div>
             <div class="w-3/4 pl-4">
               <h3
@@ -78,7 +75,8 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref ,onMounted} from "vue";
+
 
 const education = ref([
   {
