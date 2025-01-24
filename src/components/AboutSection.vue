@@ -21,7 +21,7 @@
           >
             <div class="w-1/4 flex justify-center items-center">
               <img
-                :src="element.img"
+                v-bind:src="element.img"
                 alt="graduation-cap--v1"
                 class="object-contain"
               />
@@ -34,13 +34,7 @@
               </h3>
               <p class="text-white">{{ element.program }}</p>
               <p class="text-white">{{ element.year }}</p>
-              <p 
-                id="element.link"
-                class="text-white cursor-pointer hover:text-secondary"
-                @click="redirectTo(element.link)"
-              >
-                Visit Website
-              </p>
+              
             </div>
           </div>
         </div>
