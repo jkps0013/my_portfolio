@@ -1,7 +1,7 @@
 <template>
     <header class="flex justify-between items-center p-6 bg-opacity-50 relative z-20 ">
         <div class="text-white text-3xl font-bold"><img 
-            src="@/assets/logo_jk.png" 
+            src="@/assets/logo_jk.jpeg" 
             alt="LOGO" 
             class="h-12 w-auto"
           ></div>

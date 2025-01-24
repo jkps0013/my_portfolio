@@ -3,7 +3,7 @@
       <div class="container p-12 flex justify-between">
         <div class="text-white text-3xl font-bold">
           <img 
-            src="@/assets/logo_jk.png" 
+            src="@/assets/logo_jk.jpeg" 
             alt="LOGO" 
             class="h-12 w-auto"
           >

@@ -107,7 +107,7 @@ const Experinces =ref([
         role:'Software Developer',
         company:'Siemens Technology and services pvt Limited',
         date:'July 2023 - Present',
-        img: 'src/assets/siemens_LOGO.png',
+        img: 'src/assets/siemens_LOGO.jpeg',
         url:'https://www.siemens.com/global/en.html'
     },
     {
@@ -115,7 +115,7 @@ const Experinces =ref([
         role:'Intern Technical',
         company:'Siemens Technology and services pvt Limited',
         date:'May 2022 - July 2022',
-        img: 'src/assets/siemens_LOGO.png',
+        img: 'src/assets/siemens_LOGO.jpeg',
          url:'https://www.siemens.com/global/en.html'
     },
 ])

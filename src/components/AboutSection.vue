@@ -93,7 +93,7 @@ const education = ref([
     program: "Production Engineering",
     year: "2023",
     link: "https://nitc.ac.in/",
-    img: "src/assets/logo_nit.png",
+    img: "src/assets/logo_nit.jpeg",
   },
   {
     id: 2,
@@ -101,7 +101,7 @@ const education = ref([
     program: "XI - XII",
     year: "2019",
     link: "https://placidschool.ac.in/",
-    img: "src/assets/placid_logo.png",
+    img: "src/assets/placid_logo.jpeg",
   },
 ]);
 

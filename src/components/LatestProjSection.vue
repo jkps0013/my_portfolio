@@ -81,7 +81,7 @@ const Projects = ref([
   {
     id: 1,
     category: "IP Samman certificate",
-    image: "src/assets/ip.png",
+    image: "src/assets/ip.jpeg",
     title: "Award",
     description:
       "Received IP Samman certificate under the category Rising Inventor from Siemens Technology and Service PVT LTD.",
@@ -91,7 +91,7 @@ const Projects = ref([
   {
     id: 2,
     category: "Got an idea archived for Siemens",
-    image: "src/assets/siemens_LOGO.png",
+    image: "src/assets/siemens_LOGO.jpeg",
     title: "Idea Archival",
     description: "Archived an idea for Siemens Technology and Service PVT LTD.",
     webURL:
@@ -100,7 +100,7 @@ const Projects = ref([
   {
     id: 3,
     category: "Contribution for Shape AI Community",
-    image: "src/assets/shape.png",
+    image: "src/assets/shape.jpeg",
     title: "Contribution for Shape AI Community",
     description:
       "Made contributions to the Shape AI community by creating a project on the topic of Web Development.",

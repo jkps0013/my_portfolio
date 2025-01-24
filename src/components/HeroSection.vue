@@ -72,7 +72,7 @@
                   <div class="download-loader text-white hidden"></div>
                 </div>
                 <a
-                  href="public/CV_EUROPASS_JAYAKRISHNAN_PS.pdf"
+                  href="https://drive.google.com/uc?id=12Rc2usasxPeQpAmCg_ieleDxCtLofLA9&export=download"
                   download="resume_JK.pdf"
                   class="pl-2 text-primary"
                 >
