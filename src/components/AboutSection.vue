@@ -20,7 +20,7 @@
             class="flex items-center md:w-[80%] w-full rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641]"
           >
             <div class="w-1/4 flex justify-center items-center">
-            <img v-lazy="element.img" alt="Image" width="250" />
+            <img v-lazy="element.img" alt="Image"  />
              
             </div>
             <div class="w-3/4 pl-4">
@@ -76,7 +76,8 @@
 
 <script setup>
 import { ref ,onMounted} from "vue";
-
+import logoNit from '@/assets/logo_nit.jpeg';
+import placidLogo from '@/assets/placid_logo.jpeg';
 
 const education = ref([
   {
@@ -85,7 +86,7 @@ const education = ref([
     program: "Production Engineering",
     year: "2023",
     link: "https://nitc.ac.in/",
-    img: "src/assets/logo_nit.jpeg",
+    img: logoNit,
   },
   {
     id: 2,
@@ -93,7 +94,7 @@ const education = ref([
     program: "XI - XII",
     year: "2019",
     link: "https://placidschool.ac.in/",
-    img: "src/assets/placid_logo.jpeg",
+    img: placidLogo,
   },
 ]);
 
